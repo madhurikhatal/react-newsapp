@@ -1,11 +1,17 @@
-import './App.css';
+import React, { Component } from 'react'
+import Navbar from './components/Navbar';
+import News from './components/News';
 
-function App() {
-  return (
-   <>
-   My News app
-   </>
-  );
+// class base component
+export default class App extends Component {  
+  render() {
+    console.log ("this is render");
+    return (
+      <>
+       <Navbar/>
+       <News />
+      
+     </>
+    )
+  }
 }
-
-export default App;

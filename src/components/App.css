@@ -1,0 +1,23 @@
+.container{
+    background-color: rgb(145, 105, 182);
+      display: flex;
+      flex: 1;
+}
+.card-img-top{
+    height: 50%;
+    position:absolute;
+    /* position: relative; */
+}
+.card{
+    height: 500px;  
+    transition:all 0.5s ease;
+}
+.card-body{
+    margin:250px 0px 0px 0px;
+}
+.card-title{
+    font-size: small;
+    font-weight: bold;
+}
+
+

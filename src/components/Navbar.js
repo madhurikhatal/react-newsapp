@@ -4,10 +4,10 @@ export default class Navbar extends Component {
     render() {
         return (
             <>
-                <div>Navbar</div>
+
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">Navbar</a>
+                        <a className="navbar-brand" href="/">NEWSAPP</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon" />
                         </button>
@@ -19,10 +19,10 @@ export default class Navbar extends Component {
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Link</a>
                                 </li>
-                                
-                                
+
+
                             </ul>
-                                                  </div>
+                        </div>
                     </div>
                 </nav>
             </>

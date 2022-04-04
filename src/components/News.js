@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 import NewsItems from './NewsItems'
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 export default class News extends Component {
 
-
-     // static PropTypes = {
-     //      country: PropTypes.string,
-     //      pageSize: Prototype.number
-
-     // }
-     // static defaultProps = {
-     //      country: "in",
-     //      pageSize: 6
-     // }
+     static propTypes = {
+          country: PropTypes.string,
+          pageSize: PropTypes.number,
+          category: PropTypes.string
+     }
+     static defaultProps = {
+          country: "in",
+          pageSize: 6,
+          category: 'general'
+     }
      constructor() {
           super();
           console.log("constructor run");

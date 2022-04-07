@@ -83,7 +83,9 @@ export default class News extends Component {
                                         <NewsItems title={element.title ? element.title : " "} description={element.description ? element.description : " "} imageUrl={element.urlToImage ? element.urlToImage : "https://image.cnbcfm.com/api/v1/image/106792254-1605109106759-gettyimages-1229548499-20090101201109-99-269063.jpeg?v=1605109305&w=1920&h=1080  "}
                                              // default img url
                                              newsUrl={element.url
-                                                  ? element.url : "    "}
+                                                  ? element.url : "    "
+                                             }
+                                             author={element.author ? element.author :"Hindustantimes"}
                                         />
                                    </div>
                               })}
